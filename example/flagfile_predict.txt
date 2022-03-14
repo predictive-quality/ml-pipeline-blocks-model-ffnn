@@ -1,0 +1,5 @@
+--model_name=example_run
+--stage=predict  
+--input_path=/example
+--output_path=/example
+--filename_x=x_test.fth

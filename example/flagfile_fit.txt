@@ -1,0 +1,16 @@
+--input_path=example/
+--output_path=example/
+--model_name=example_run
+--stage=fit
+--layers="{'type': 'Dense', 'units': 15 , 'use_bias': False, 'activation': 'linear'}","{'type': 'Dense', 'units': 5 , 'use_bias': False, 'activation': 'linear'}","{'type': 'Dense', 'units': 3 , 'use_bias': False, 'activation': 'sigmoid'}"
+--batch_size=16
+--callbacks={'TensorBoard': {'log_dir': 'logs/'}}
+--epochs=300
+--buffer_size=10000
+--loss=MeanAbsoluteError
+--metrics=MeanAbsoluteError,MeanSquaredError,LogCoshError
+--optimizer_config={'class_name': 'Adam', 'config':{'learning_rate':1e-3}}
+--verbose=2
+--columns_y=Y1
+--filename_x=x_train.fth
+--filename_y=y_train.fth

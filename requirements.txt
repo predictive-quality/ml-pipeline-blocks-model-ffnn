@@ -1,0 +1,7 @@
+--extra-index-url https://git-package-read-token:hiZnxRXN2S1b-BsEavXJ@git-ce.rwth-aachen.de/api/v4/projects/4473/packages/pypi/simple
+s3-smart-open
+pandas
+absl-py
+scikit-learn
+feather-format
+pyarrow>=0.9.0

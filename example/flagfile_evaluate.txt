@@ -1,0 +1,8 @@
+--model_name=example_run
+--stage=evaluate 
+--metrics=MeanAbsoluteError,MeanSquaredError,LogCoshError   
+--input_path=/example
+--output_path=/example
+--filename_x=x_test.fth
+--filename_y=y_test.fth 
+--columns_y=Y1
